@@ -1,0 +1,37 @@
+a {
+    @apply .text-grey-dark .no-underline .pb-1 .border-b .border-grey-dark;
+
+    &:hover {
+        @apply .text-grey-darker;
+    }
+}
+
+.slide-link {
+    @apply .text-white .no-underline .border-0 .uppercase .text-sm;
+
+    &:after {
+        @apply .bg-grey-light .mt-2 .block;
+        content: '';
+        width: 0;
+        height: 2px;
+        transition: width 0.3s;
+    }
+
+    &:hover {
+        &:after {
+            @apply .w-full;
+        }
+    }
+}
+
+.slide-link.exact-active {
+    @apply .border-b-2 .border-grey-light .pb-2;
+}
+
+.nav-link {
+    @apply .text-white .no-underline .border-0;
+
+    &:hover {
+        @apply .text-grey-light;
+    }
+}

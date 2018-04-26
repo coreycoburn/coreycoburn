@@ -28,14 +28,24 @@ module.exports = {
                 content: 'Resume site for Corey Coburn'
             }
         ],
-        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+        link: [
+            {
+                rel: 'stylesheet',
+                href: 'https://fonts.googleapis.com/css?family=Lato'
+            },
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        ]
     },
     /**
      ** Add plugins
      */
     plugins: [
+        '@/plugins/mixins/layout',
         '@/plugins/scrollTo',
-        { src: '@/plugins/animateCss', ssr: false }
+        '@/plugins/svgIcon',
+        { src: '@/plugins/animateCss', ssr: false },
+        { src: '@/plugins/typer', ssr: false },
+        { src: '@/plugins/videobg', ssr: false }
     ],
     /*
     ** Customize the progress bar color
@@ -46,7 +56,8 @@ module.exports = {
     */
     router: {
         linkActiveClass: 'active',
-        linkExactActiveClass: 'exact-active'
+        linkExactActiveClass: 'exact-active',
+        middleware: ['layout']
     },
     /*
   ** Build configuration
@@ -75,15 +86,15 @@ module.exports = {
                                 extensions: ['vue']
                             }
                         ],
-                        whitelist: ['html', 'body', 'nuxt-progress']
+                        whitelist: require('./config/purgeCssIgnore')
                     })
                 )
 
                 config.plugins.push(
                     new CopyWebpackPlugin([
                         {
-                            from: './assets/img/',
-                            to: 'static/img/',
+                            from: './assets/',
+                            to: 'static/',
                             ignore: ['*.svg']
                         }
                     ]),
