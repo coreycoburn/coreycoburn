@@ -13,13 +13,26 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "nuxt": "^1.0.0",
+    "v-animate-css": "^0.0.2",
+    "vue-scrollto": "^2.11.0"
   },
   "devDependencies": {
+    "autoprefixer": "^8.3.0",
     "babel-eslint": "^8.2.1",
+    "copy-webpack-plugin": "^4.5.1",
     "eslint": "^4.15.0",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "eslint-plugin-vue": "^4.0.0",
+    "glob-all": "^3.1.0",
+    "imagemin-webpack-plugin": "^2.1.1",
+    "node-sass": "^4.8.3",
+    "purgecss-webpack-plugin": "^0.22.0",
+    "sass-loader": "^7.0.1",
+    "stylelint": "^9.2.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "tailwindcss": "^0.5.2"
   }
 }
