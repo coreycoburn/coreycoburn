@@ -81,6 +81,7 @@ module.exports = {
                 config.plugins.push(
                     new PurgecssPlugin({
                         paths: glob.sync([
+                            path.join(__dirname, './forms/**/*.vue'),
                             path.join(__dirname, './pages/**/*.vue'),
                             path.join(__dirname, './layouts/**/*.vue'),
                             path.join(__dirname, './components/**/*.vue')
