@@ -1,7 +1,7 @@
 <template>
-      <div>
+      <div class="flex flex-col h-screen">
         <v-nav/>
-        <div :class="{ 'mx-6': page !== 'index' }">
+        <div class="flex-grow" :class="{ 'mx-6': page !== 'index' }">
             <transition name="fadeDown">
                 <nuxt/>
             </transition>

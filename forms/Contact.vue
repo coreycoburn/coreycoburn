@@ -1,5 +1,5 @@
 <template>
-    <form name="contact" ref="contact" method="post" netlify @submit.prevent="submit">
+    <form name="contact" ref="contact" method="post" action="/thanks" netlify @submit.prevent="submit">
         <input type="hidden" name="form-name" value="contact" />
 
         <div class="flex flex-col justify-around mb-8 sm:flex-row">
