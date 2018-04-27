@@ -25,7 +25,11 @@ module.exports = {
             {
                 hid: 'description',
                 name: 'description',
-                content: 'Resume site for Corey Coburn'
+                content: 'Marketing / resume site for Corey Coburn'
+            },
+            {
+                name: 'google-site-verification',
+                content: 'nKnYB7HS47TX9PSIISbTtg9ApnqLlSo-3Ig04GKQXAI'
             }
         ],
         link: [
@@ -56,7 +60,7 @@ module.exports = {
     /*
     ** Thank you nuxt community!
     */
-    modules: ['@nuxtjs/localtunnel'],
+    // modules: ['@nuxtjs/localtunnel'],
     /*
      ** Customize the progress bar color
     */
