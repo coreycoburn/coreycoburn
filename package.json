@@ -2,6 +2,7 @@
     "name": "coreycoburn",
     "version": "1.0.0",
     "description": "Resume site for Corey Coburn",
+    "homepage": "https://coburn.codes",
     "author": "Corey Coburn <corey@coburn.codes>",
     "private": true,
     "scripts": {

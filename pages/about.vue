@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="container mx-auto">
-            <h1>{{ title }}</h1>
+            <h1 class="text-center">{{ title }}</h1>
         </div>
     </div>
 </template>

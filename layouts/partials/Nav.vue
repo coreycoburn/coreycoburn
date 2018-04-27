@@ -5,13 +5,13 @@
                 <div class="flex-1">
                     <ul class="flex list-reset">
                         <li v-animate-css.hover="'bounce'" class="mr-4">
-                            <a href="https://twitter.com/coreycoburn" class="nav-link"><icon name="brands/twitter"/></a>
+                            <a :href="social.twitter" class="nav-link"><icon name="brands/twitter"/></a>
                         </li>
                         <li v-animate-css.hover="'bounce'" class="mr-4">
-                            <a href="https://github.com/coreycoburn" class="nav-link"><icon name="brands/github"/></a>
+                            <a :href="social.github" class="nav-link"><icon name="brands/github"/></a>
                         </li>
                         <li v-animate-css.hover="'bounce'">
-                            <a href="https://www.linkedin.com/in/coreycoburn" class="nav-link"><icon name="brands/linkedin-in"/></a>
+                            <a :href="social.linkedin" class="nav-link"><icon name="brands/linkedin-in"/></a>
                         </li>
                     </ul>
                 </div>
@@ -35,6 +35,7 @@
 <script>
 import NavSlider from './NavSlider'
 import { links } from '@/config/links'
+import { social } from '@/config/content'
 import '@/components/icons/brands/github'
 import '@/components/icons/brands/linkedin-in'
 import '@/components/icons/brands/twitter'
@@ -46,7 +47,8 @@ export default {
     },
     data() {
         return {
-            links
+            links,
+            social
         }
     }
 }
