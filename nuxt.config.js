@@ -43,6 +43,7 @@ module.exports = {
         '@/plugins/mixins/layout',
         '@/plugins/scrollTo',
         '@/plugins/svgIcon',
+        '@/plugins/veeValidate',
         { src: '@/plugins/animateCss', ssr: false },
         { src: '@/plugins/typer', ssr: false },
         { src: '@/plugins/videobg', ssr: false }

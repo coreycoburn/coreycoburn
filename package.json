@@ -17,6 +17,7 @@
     "dependencies": {
         "nuxt": "^1.0.0",
         "v-animate-css": "^0.0.2",
+        "vee-validate": "^2.0.8",
         "vue-drawer-layout": "^0.3.1",
         "vue-scrollto": "^2.11.0",
         "vue-svgicon": "^2.1.3",
