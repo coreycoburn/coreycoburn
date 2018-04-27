@@ -51,6 +51,11 @@ module.exports = {
     ** Customize the progress bar color
     */
     loading: { color: '#3B8070' },
+
+    /*
+    ** Thank you nuxt community!
+    */
+    modules: ['@nuxtjs/localtunnel'],
     /*
      ** Customize the progress bar color
     */
