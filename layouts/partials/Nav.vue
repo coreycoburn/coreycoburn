@@ -36,7 +36,7 @@
                             </a>
                             <nuxt-link
                                 v-else
-                                :to="{ path: path }"
+                                :to="{ path }"
                                 class="nav-link slide-link"
                                 exact
                             >

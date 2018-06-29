@@ -13,8 +13,23 @@
             <div class="fixed h-full w-3/5 pin-t pin-r py-16 pl-16 pr-6 bg-blue-darker" v-show="nav.mobile">
                 <nav>
                     <ul class="list-reset">
-                        <li class="mb-8" v-for="link in links" :key="link.text">
-                            <nuxt-link :to="{ path: link.path }" class="nav-link slide-link" @click.native="toggleNav" exact>{{ link.text }}</nuxt-link>
+                        <li class="mb-8" v-for="{ path, absolute, text } in links" :key="text">
+                            <a
+                                v-if="absolute"
+                                :href="absolute"
+                                class="nav-link slide-link"
+                            >
+                                {{ text }}
+                            </a>
+                            <nuxt-link
+                                v-else
+                                :to="{ path }"
+                                class="nav-link slide-link"
+                                @click.native="toggleNav"
+                                exact
+                            >
+                                {{ text }}
+                            </nuxt-link>
                         </li>
                     </ul>
                 </nav>
