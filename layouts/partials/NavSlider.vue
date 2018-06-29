@@ -18,6 +18,7 @@
                                 v-if="absolute"
                                 :href="absolute"
                                 class="nav-link slide-link"
+                                target="_blank"
                             >
                                 {{ text }}
                             </a>
