@@ -22,8 +22,26 @@
 
                 <nav>
                     <ul class="hidden md:flex items-end list-reset">
-                        <li class="flex-row ml-8" v-for="link in links" :key="link.text">
-                            <nuxt-link :to="{ path: link.path }" class="nav-link slide-link" exact>{{ link.text }}</nuxt-link>
+                        <li
+                            class="flex-row ml-8"
+                            v-for="{ path, absolute, text } in links"
+                            :key="text"
+                        >
+                            <a
+                                v-if="absolute"
+                                :href="absolute"
+                                class="nav-link slide-link"
+                            >
+                                {{ text }}
+                            </a>
+                            <nuxt-link
+                                v-else
+                                :to="{ path: path }"
+                                class="nav-link slide-link"
+                                exact
+                            >
+                                {{ text }}
+                            </nuxt-link>
                         </li>
                     </ul>
                 </nav>
