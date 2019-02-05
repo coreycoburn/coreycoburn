@@ -13,6 +13,9 @@
                     <a href="social.linkedin" class="border-0"><icon name="brands/linkedin-in"/></a>
                 </li>
             </ul>
+
+            <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="coreycoburn"><a class="LI-simple-link" href='https://www.linkedin.com/in/coreycoburn?trk=profile-badge'>Corey Coburn</a></div>
+
             <p>&copy; {{ year }}. All rights reserved.</p>
         </footer>
     </div>

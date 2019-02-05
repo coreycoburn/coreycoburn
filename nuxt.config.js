@@ -1,8 +1,8 @@
-const path = require('path')
-const PurgecssPlugin = require('purgecss-webpack-plugin')
-const CopyWebpackPlugin = require('copy-webpack-plugin')
-const ImageminPlugin = require('imagemin-webpack-plugin').default
-const glob = require('glob-all')
+import path from 'path'
+import PurgecssPlugin from 'purgecss-webpack-plugin'
+import CopyWebpackPlugin from 'copy-webpack-plugin'
+import ImageminPlugin from 'imagemin-webpack-plugin'
+import glob from 'glob-all'
 
 class TailwindExtractor {
     static extract(content) {
