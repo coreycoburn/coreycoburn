@@ -1,9 +1,9 @@
 <template>
-      <div>
-        <v-nav/>
-        <transition name="fade">
-            <nuxt/>
-        </transition>
+  <div>
+    <VNav />
+    <transition name="fade">
+      <nuxt />
+    </transition>
   </div>
 </template>
 
@@ -11,13 +11,14 @@
 import VNav from './partials/Nav'
 
 export default {
-    head: {
-        bodyAttrs: {
-            class: 'font-serif bg-grey-lightest text-grey-darker'
-        }
-    },
-    components: {
-        VNav
+  head: {
+    bodyAttrs: {
+      class: 'font-serif bg-grey-lightest text-grey-darker'
     }
+  },
+
+  components: {
+    VNav
+  }
 }
 </script>

@@ -1,4 +1,4 @@
 import Vue from 'vue'
 import VideoBg from 'vue-videobg'
 
-Vue.component('video-bg', VideoBg)
+Vue.component('VideoBg', VideoBg)

@@ -1,21 +1,31 @@
 module.exports = {
   root: true,
-  env: {
-    browser: true,
-    node: true
-  },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: 'babel-eslint',
+    sourceType: 'module'
   },
   extends: [
-    // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
-    // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
-    'plugin:vue/essential'
+    'plugin:vue/recommended',
+    'standard'
   ],
-  // required to lint *.vue files
-  plugins: [
-    'vue'
-  ],
-  // add your custom rules here
-  rules: {}
+  rules: {
+    'no-console': process.env.PRE_COMMIT ? ['error', { 'allow': ['warn', 'error'] }] : 'off',
+    'vue/component-name-in-template-casing': [
+      'error',
+      'PascalCase',
+      {
+        ignores: [
+          'component',
+          'template',
+          'transition',
+          'transition-group',
+          'keep-alive',
+          'slot',
+          'nuxt',
+          'nuxt-link',
+          'no-ssr',
+        ],
+      },
+    ],
+  }
 }

@@ -1,6 +1,6 @@
 {
     "name": "coreycoburn",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Resume site for Corey Coburn",
     "homepage": "https://coburn.codes",
     "author": "Corey Coburn <corey@coburn.codes>",
@@ -11,8 +11,12 @@
         "start": "nuxt start",
         "generate": "nuxt generate",
         "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+        "lint:eslint": "eslint --fix",
         "precommit": "npm run lint",
         "icons": "vsvg -s assets/img/svg -t components/icons"
+    },
+    "gitHooks": {
+        "pre-commit": "cross-env PRE_COMMIT=true lint-staged"
     },
     "dependencies": {
         "nuxt": "^2.4.2",
@@ -27,12 +31,11 @@
     },
     "devDependencies": {
         "@nuxtjs/localtunnel": "^1.0.1",
+        "@vue/eslint-config-standard": "^4.0.0",
         "autoprefixer": "^9.4.7",
         "babel-eslint": "^10.0.1",
         "copy-webpack-plugin": "^4.5.1",
         "eslint": "^5.13.0",
-        "eslint-config-prettier": "^4.0.0",
-        "eslint-friendly-formatter": "^4.0.1",
         "eslint-loader": "^2.1.2",
         "eslint-plugin-vue": "^5.1.0",
         "glob-all": "^3.1.0",
@@ -40,8 +43,6 @@
         "node-sass": "^4.8.3",
         "purgecss-webpack-plugin": "^1.4.0",
         "sass-loader": "^7.0.1",
-        "stylelint": "^9.2.0",
-        "stylelint-config-recommended": "^2.1.0",
         "tailwindcss": "^0.5.2"
     }
 }
