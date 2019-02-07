@@ -8,7 +8,7 @@
       <div class="flex flex-col sm:flex-row justify-around mb-16">
         <div class="flex-1 text-center">
           <Icon
-            name="solid/map-marker-alt"
+            name="map-marker-alt"
             class="icon-md mb-3"
           />
 
@@ -26,7 +26,7 @@
         </div>
         <div class="flex-1 text-center mt-6 sm:mt-0">
           <Icon
-            name="solid/envelope"
+            name="envelope"
             class="icon-md mb-3"
           />
 
@@ -42,7 +42,7 @@
         </div>
         <div class="flex-1 text-center mt-6 sm:mt-0">
           <Icon
-            name="solid/bullhorn"
+            name="bullhorn"
             class="icon-md mb-3"
           />
 
@@ -59,7 +59,7 @@
                 :href="social.twitter"
                 class="border-0"
               >
-                <Icon name="brands/twitter" />
+                <Icon name="twitter" />
               </a>
             </li>
 
@@ -71,7 +71,7 @@
                 :href="social.github"
                 class="border-0"
               >
-                <Icon name="brands/github" />
+                <Icon name="github" />
               </a>
             </li>
 
@@ -83,7 +83,7 @@
                 :href="social.linkedin"
                 class="border-0"
               >
-                <Icon name="brands/linkedin-in" />
+                <Icon name="linkedin-in" />
               </a>
             </li>
           </ul>
@@ -96,11 +96,16 @@
 </template>
 
 <script>
-import { me, social } from '@/config/content'
+// Components
 import FormContact from '@/forms/Contact'
-import '@/components/icons/solid/map-marker-alt'
-import '@/components/icons/solid/envelope'
-import '@/components/icons/solid/bullhorn'
+
+// Icons
+import '@/components/icons/bullhorn'
+import '@/components/icons/envelope'
+import '@/components/icons/map-marker-alt'
+
+// Content
+import { me, social } from '@/config/content'
 
 export default {
   head () {

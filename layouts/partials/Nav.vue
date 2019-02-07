@@ -15,7 +15,7 @@
                 :href="social.twitter"
                 class="nav-link"
               >
-                <Icon name="brands/twitter" />
+                <Icon name="twitter" />
               </a>
             </li>
 
@@ -27,7 +27,7 @@
                 :href="social.github"
                 class="nav-link"
               >
-                <Icon name="brands/github" />
+                <Icon name="github" />
               </a>
             </li>
 
@@ -36,7 +36,7 @@
                 :href="social.linkedin"
                 class="nav-link"
               >
-                <Icon name="brands/linkedin-in" />
+                <Icon name="linkedin-in" />
               </a>
             </li>
           </ul>
@@ -79,13 +79,18 @@
 </template>
 
 <script>
+// Components
 import NavSlider from './NavSlider'
+
+// Icons
+import '@/components/icons/github'
+import '@/components/icons/linkedin-in'
+import '@/components/icons/twitter'
+import '@/components/icons/bars'
+
+// Content
 import { links } from '@/config/links'
 import { social } from '@/config/content'
-import '@/components/icons/brands/github'
-import '@/components/icons/brands/linkedin-in'
-import '@/components/icons/brands/twitter'
-import '@/components/icons/solid/bars'
 
 export default {
   components: {

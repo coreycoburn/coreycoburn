@@ -20,7 +20,7 @@
             :href="social.twitter"
             class="border-0"
           >
-            <Icon name="brands/twitter" />
+            <Icon name="twitter" />
           </a>
         </li>
 
@@ -32,7 +32,7 @@
             :href="social.github"
             class="border-0"
           >
-            <Icon name="brands/github" />
+            <Icon name="github" />
           </a>
         </li>
 
@@ -41,7 +41,7 @@
             href="social.linkedin"
             class="border-0"
           >
-            <Icon name="brands/linkedin-in" />
+            <Icon name="linkedin-in" />
           </a>
         </li>
       </ul>

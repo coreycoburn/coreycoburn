@@ -108,43 +108,49 @@
         <p>
           I'm continuously trying to become a better developer and staying on top of the latest technologies. I'm focusing on improving my development by writing more tests for my code (unit and integration) for both Laravel and Vue. I'm also have been dabbling in learning React and GraphQL.
         </p>
+
+        <p>
+          I started working in open source last year when my first pull-request was merged into a popular Vue package (<a href="https://github.com/jofftiquez/v-animate-css/pull/2/">
+            Added modifiers to listen to scroll events
+          </a>). I plan to spend more time focusing on open source work in 2019.
+        </p>
       </div>
     </div>
 
     <div class="bg-black py-16 text-grey-lightest">
       <div class="flex container mx-auto max-w-xl">
         <Icon
-          name="brands/php"
+          name="php"
           class="flex-1 icon-lg"
         />
 
         <Icon
-          name="brands/laravel"
+          name="laravel"
           class="flex-1 icon-lg"
         />
 
         <Icon
-          name="brands/js"
+          name="js"
           class="flex-1 icon-lg"
         />
 
         <Icon
-          name="brands/vuejs"
+          name="vuejs"
           class="flex-1 icon-lg"
         />
 
         <Icon
-          name="brands/git"
+          name="git"
           class="flex-1 icon-lg"
         />
 
         <Icon
-          name="brands/sass"
+          name="sass"
           class="flex-1 icon-lg"
         />
 
         <Icon
-          name="brands/sketch"
+          name="sketch"
           class="flex-1 icon-lg"
         />
       </div>
@@ -154,13 +160,13 @@
 
 <script>
 // Icons
-import '@/components/icons/brands/git'
-import '@/components/icons/brands/js'
-import '@/components/icons/brands/laravel'
-import '@/components/icons/brands/php'
-import '@/components/icons/brands/sass'
-import '@/components/icons/brands/sketch'
-import '@/components/icons/brands/vuejs'
+import '@/components/icons/git'
+import '@/components/icons/js'
+import '@/components/icons/laravel'
+import '@/components/icons/php'
+import '@/components/icons/sass'
+import '@/components/icons/sketch'
+import '@/components/icons/vuejs'
 
 export default {
   head () {
