@@ -9,7 +9,7 @@
       </no-ssr>
     </div>
 
-    <div class="h-screen w-full bg-black-darkest opacity-75 absolute pin-t" />
+    <div class="h-screen w-full bg-blue-darkest opacity-90 absolute pin-t" />
 
     <div class="flex items-center justify-content h-screen w-full absolute pin-t">
       <div class="container mx-auto">

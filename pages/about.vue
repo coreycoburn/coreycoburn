@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="container mx-auto">
+    <div class="max-w-3xl mx-auto">
       <h1 class="text-center">
         {{ title }}
       </h1>
 
-      <div class="flex">
-        <div class="flex w-1/2 justify-center">
+      <div class="flex flex-col md:flex-row">
+        <div class="flex w-full justify-center md:w-1/2">
           <img
             class="flex"
             src="~assets/img/corey.png"
@@ -14,7 +14,7 @@
           >
         </div>
 
-        <div class="flex w-1/2 items-center text-xl">
+        <div class="flex w-full bg-blue-darkest text-blue-lightest px-6 py-12 items-center text-xl md:w-1/2 md:bg-transparent md:text-grey-darker">
           <p>
             Hi, I'm Corey, a full-stack web developer living in Santa Rosa, CA with 8+ years professional experience. My passion for this constantly evolving field resonates deeply with me. I am consistently pushing myself to grow and become a better developer and being a part of a team with similar goals.
           </p>
@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <div class="bg-grey-light py-24 text-black text-lg shadow-lg shadow-inner">
+    <div class="bg-grey-lighter px-6 py-12 text-black text-lg shadow-lg shadow-inner md:px-0 md:py-24">
       <div class="container mx-auto max-w-md">
         <h2>My Story</h2>
 
@@ -117,41 +117,41 @@
       </div>
     </div>
 
-    <div class="bg-black py-16 text-grey-lightest">
-      <div class="flex container mx-auto max-w-xl">
+    <div class="bg-blue-darkest py-16 text-grey-lightest">
+      <div class="flex flex-wrap container mx-auto max-w-xl">
         <Icon
           name="php"
-          class="flex-1 icon-lg"
+          class="w-1/3 mb-12 icon-lg md:flex-1"
         />
 
         <Icon
           name="laravel"
-          class="flex-1 icon-lg"
+          class="w-1/3 mb-12 icon-lg md:flex-1"
         />
 
         <Icon
           name="js"
-          class="flex-1 icon-lg"
+          class="w-1/3 mb-12 icon-lg md:flex-1"
         />
 
         <Icon
           name="vuejs"
-          class="flex-1 icon-lg"
+          class="w-1/3 mb-12 icon-lg md:flex-1"
         />
 
         <Icon
           name="git"
-          class="flex-1 icon-lg"
+          class="w-1/3 mb-12 icon-lg md:flex-1"
         />
 
         <Icon
           name="sass"
-          class="flex-1 icon-lg"
+          class="w-1/3 mb-12 icon-lg md:flex-1"
         />
 
         <Icon
           name="sketch"
-          class="flex-1 icon-lg"
+          class="w-full icon-lg md:flex-1"
         />
       </div>
     </div>

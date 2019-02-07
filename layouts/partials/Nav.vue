@@ -1,7 +1,7 @@
 <template>
   <div
     class="absolute pin-t z-30 w-full mb-16"
-    :class="{ 'bg-black relative': page !== 'index' }"
+    :class="{ 'bg-blue-darkest relative': page !== 'index' }"
   >
     <div class="container mx-auto py-8">
       <div class="flex flex-row content-center mx-6 sm:mx-0 text-white">
