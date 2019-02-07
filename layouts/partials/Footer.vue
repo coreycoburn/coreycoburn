@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-grey-light py-16 mt-8">
+  <div class="bg-grey-light py-16">
     <footer class="container mx-auto text-center">
       <p class="mb-8 text-grey-darkest text-lg font-bold">
         Say 👋 @

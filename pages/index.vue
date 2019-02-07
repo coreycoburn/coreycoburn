@@ -25,7 +25,7 @@
           </h1>
 
           <no-ssr>
-            <VueTyper
+            <vue-typer
               :text="skills"
               erase-style="clear"
               :pre-type-delay="0"

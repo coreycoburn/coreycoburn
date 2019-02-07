@@ -24,6 +24,7 @@ module.exports = {
           'nuxt',
           'nuxt-link',
           'no-ssr',
+          'vue-typer',
         ],
       },
     ],

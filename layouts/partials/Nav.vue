@@ -1,6 +1,6 @@
 <template>
   <div
-    class="absolute pin-t z-30 w-full mb-8"
+    class="absolute pin-t z-30 w-full mb-16"
     :class="{ 'bg-black relative': page !== 'index' }"
   >
     <div class="container mx-auto py-8">

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container mx-auto">
+    <div class="container mx-auto mb-32">
       <h1 class="text-center">
         {{ title }}
       </h1>

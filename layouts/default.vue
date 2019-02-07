@@ -2,10 +2,7 @@
   <div class="flex flex-col h-screen">
     <VNav />
 
-    <div
-      class="flex-grow"
-      :class="{ 'mx-6': page !== 'index' }"
-    >
+    <div class="flex-grow">
       <transition name="fadeDown">
         <nuxt />
       </transition>
