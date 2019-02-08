@@ -47,10 +47,22 @@ import '@/components/icons/download'
 import { me } from '@/config/content'
 
 export default {
+  head () {
+    return {
+      title: this.title
+    }
+  },
+
   data () {
     return {
       me,
       resume: '/pdf/resume.pdf'
+    }
+  },
+
+  computed: {
+    title () {
+      return `Resume for ${this.me.name}`
     }
   },
 

@@ -20,9 +20,10 @@
             San Francisco Bay Area
           </div>
 
-          <div class="leading-loose">
-            Local &amp; Remote Freelancer
-          </div>
+          <div
+            class="leading-loose"
+            v-text="me.title"
+          />
         </div>
         <div class="flex-1 text-center mt-6 sm:mt-0">
           <Icon

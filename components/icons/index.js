@@ -1,4 +1,5 @@
 /* eslint-disable */
+require('./arrow-alt-circle-left')
 require('./bars')
 require('./bullhorn')
 require('./download')

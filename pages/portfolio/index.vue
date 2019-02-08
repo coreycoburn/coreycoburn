@@ -6,7 +6,7 @@
       </h1>
     </div>
 
-    <div class="mx-auto max-w-md text-center mb-16 text-xl">
+    <div class="mx-auto max-w-md text-center mb-16 text-xl px-6 md:px-0">
       <p>
         A small sample of some of my work from over the past few years. To see some code examples, please visit my <a :href="social.github">
           Github page

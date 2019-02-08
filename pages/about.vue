@@ -168,6 +168,9 @@ import '@/components/icons/sass'
 import '@/components/icons/sketch'
 import '@/components/icons/vuejs'
 
+// Content
+import { me } from '@/config/content'
+
 export default {
   head () {
     return {
@@ -177,7 +180,13 @@ export default {
 
   data () {
     return {
-      title: 'About'
+      me
+    }
+  },
+
+  computed: {
+    title () {
+      return `About ${this.me.name}`
     }
   }
 }

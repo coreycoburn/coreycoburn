@@ -1,6 +1,24 @@
 <template>
   <div>
     <div class="container mx-auto max-w-lg px-6 md:px-0">
+      <div class="mb-8">
+        <nuxt-link
+          :to="{ name: 'portfolio' }"
+          exact
+        >
+          <div class="flex items-center">
+            <Icon
+              name="arrow-alt-circle-left"
+              class="mr-3"
+            />
+
+            <div>
+              back to portfolio list
+            </div>
+          </div>
+        </nuxt-link>
+      </div>
+
       <h1 class="text-center">
         {{ title }}
       </h1>
@@ -50,6 +68,9 @@
 </template>
 
 <script>
+// Icons
+import '@/components/icons/arrow-alt-circle-left'
+
 export default {
   props: {
     title: {
