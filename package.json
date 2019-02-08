@@ -13,7 +13,8 @@
         "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
         "lint:eslint": "eslint --fix",
         "precommit": "npm run lint",
-        "icons": "vsvg -s assets/img/svg -t components/icons"
+        "icons": "vsvg -s assets/img/svg -t components/icons",
+        "heroku-postbuild": "npm run build"
     },
     "gitHooks": {
         "pre-commit": "cross-env PRE_COMMIT=true lint-staged"
