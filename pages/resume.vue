@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="text-center text-2xl mb-16 md:hidden">
+    <div class="text-center text-2xl mt-16 md:hidden">
       <a :href="resume">
         View Resume
       </a>
     </div>
 
     <div class="mx-auto max-w-xl">
-      <div class="text-center mb-12 md:text-right">
+      <div class="hidden mb-12 text-right md:block">
         <button @click="download">
           <Icon
             name="download"
