@@ -32,6 +32,30 @@ module.exports = {
       {
         name: 'google-site-verification',
         content: 'nKnYB7HS47TX9PSIISbTtg9ApnqLlSo-3Ig04GKQXAI'
+      },
+      {
+        name: 'twitter:card',
+        content: 'summary'
+      },
+      {
+        name: 'twitter:creator',
+        content: '@coreycoburn'
+      },
+      {
+        property: 'og:url',
+        content: pkg.homepage
+      },
+      {
+        property: 'og:title',
+        content: 'Corey Coburn | Full-Stack Web Developer'
+      },
+      {
+        property: 'og:title',
+        content: pkg.description
+      },
+      {
+        property: 'og:image',
+        content: '/img/corey.png'
       }
     ],
     link: [
