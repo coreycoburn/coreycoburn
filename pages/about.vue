@@ -117,7 +117,7 @@
       </div>
     </div>
 
-    <div class="bg-teal py-16 text-grey-lightest">
+    <div class="diamonds py-16 text-grey-lightest">
       <div class="flex flex-wrap container mx-auto max-w-xl">
         <Icon
           name="php"

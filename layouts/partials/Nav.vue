@@ -1,7 +1,7 @@
 <template>
   <div
     class="w-full"
-    :class="{ 'bg-teal relative shadow-md': pageName !== 'index' }"
+    :class="{ 'diamonds relative shadow-md': pageName !== 'index' }"
   >
     <div class="container mx-auto py-8">
       <div class="flex flex-row content-center mx-6 sm:mx-0 text-white">
