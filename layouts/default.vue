@@ -5,7 +5,7 @@
     </div>
 
     <div
-      :class="{ 'mt-40': page !== 'index' }"
+      :class="{ 'mt-40': pageName !== 'index' }"
       class="flex-grow"
     >
       <transition name="fadeDown">
@@ -13,7 +13,7 @@
       </transition>
     </div>
 
-    <VFooter v-show="page !== 'index'" />
+    <VFooter v-show="pageName !== 'index'" />
   </div>
 </template>
 

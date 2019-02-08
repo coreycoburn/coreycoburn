@@ -6,7 +6,7 @@ const Layout = {
     Vue.mixin({
       computed: {
         ...mapGetters({
-          page: 'layout/page'
+          pageName: 'layout/pageName'
         })
       }
     })

@@ -1,6 +1,7 @@
 /* eslint-disable */
 require('./bars')
 require('./bullhorn')
+require('./download')
 require('./envelope')
 require('./git')
 require('./github')

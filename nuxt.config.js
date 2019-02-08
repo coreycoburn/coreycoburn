@@ -51,6 +51,7 @@ module.exports = {
     '@/plugins/svgIcon',
     '@/plugins/veeValidate',
     { src: '@/plugins/animateCss', ssr: false },
+    { src: '@/plugins/pdf', ssr: false },
     { src: '@/plugins/typer', ssr: false },
     { src: '@/plugins/videobg', ssr: false }
   ],
@@ -62,7 +63,9 @@ module.exports = {
   /*
    ** Thank you nuxt community!
    */
-  // modules: ['@nuxtjs/localtunnel'],
+  modules: [
+    // '@nuxtjs/localtunnel'
+  ],
   /*
    ** Customize the progress bar color
    */
@@ -125,6 +128,8 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
+
+        config.output.globalObject = 'this'
       }
     }
   },

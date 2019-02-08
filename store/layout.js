@@ -1,17 +1,17 @@
 export const state = () => ({
   layout: {
-    page: 'index'
+    pageName: 'index'
   }
 })
 
 export const getters = {
-  page (state) {
-    return state.layout.page
+  pageName (state) {
+    return state.layout.pageName
   }
 }
 
 export const mutations = {
-  SET_PAGE (state, page) {
-    state.layout.page = page
+  SET_PAGE (state, pageName) {
+    state.layout.pageName = pageName
   }
 }

@@ -17,7 +17,7 @@
     <transition name="slideRight">
       <div
         v-show="nav.mobile"
-        class="fixed h-full w-3/5 pin-t pin-r py-16 pl-16 pr-6 bg-blue-darker"
+        class="fixed h-full w-3/5 pin-t pin-r py-16 pl-16 pr-6 bg-black"
       >
         <nav>
           <ul class="list-reset">

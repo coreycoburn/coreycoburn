@@ -19,7 +19,9 @@
         "pre-commit": "cross-env PRE_COMMIT=true lint-staged"
     },
     "dependencies": {
+        "axios": "^0.18.0",
         "nuxt": "^2.4.3",
+        "pdfvuer": "^1.0.5",
         "v-animate-css": "^0.0.3",
         "vee-validate": "^2.1.7",
         "vue-drawer-layout": "^0.3.1",
