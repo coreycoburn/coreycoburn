@@ -2,7 +2,13 @@
   <div>
     <div class="text-center text-2xl mt-16 md:hidden">
       <a :href="resume">
-        View Resume
+        <span class="block mb-3">
+          View Resume,
+        </span>
+
+        <span class="block">
+          click here
+        </span>
       </a>
     </div>
 

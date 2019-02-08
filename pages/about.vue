@@ -14,7 +14,7 @@
           >
         </div>
 
-        <div class="flex w-full bg-blue-darkest text-blue-lightest px-6 py-12 items-center text-xl md:w-1/2 md:bg-transparent md:text-grey-darker">
+        <div class="bg-teal flex w-full text-teal-lightest px-6 py-12 items-center text-xl md:w-1/2 md:bg-transparent md:text-grey-darker">
           <p>
             Hi, I'm Corey, a full-stack web developer living in Santa Rosa, CA with 8+ years professional experience. My passion for this constantly evolving field resonates deeply with me. I am consistently pushing myself to grow and become a better developer and being a part of a team with similar goals.
           </p>

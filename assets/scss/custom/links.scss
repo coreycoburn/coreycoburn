@@ -24,7 +24,7 @@ a {
     }
 }
 
-.slide-link.exact-active {
+.nav-link.exact-active, .slide-link.exact-active {
     @apply border-b-2 border-grey-light pb-2;
 }
 

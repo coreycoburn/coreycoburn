@@ -38,7 +38,7 @@
               <nuxt-link
                 v-else
                 :to="{ path }"
-                class="nav-link slide-link"
+                class="nav-link"
                 exact
                 @click.native="toggleNav"
               >
