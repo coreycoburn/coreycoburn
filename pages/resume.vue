@@ -64,3 +64,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.textLayer {
+  @apply hidden;
+}
+</style>
