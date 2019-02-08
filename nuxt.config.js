@@ -69,7 +69,10 @@ module.exports = {
   router: {
     linkActiveClass: 'active',
     linkExactActiveClass: 'exact-active',
-    middleware: ['layout']
+    middleware: ['layout'],
+    scrollBehavior: function () {
+      return { x: 0, y: 0 }
+    }
   },
   /*
    ** Build configuration

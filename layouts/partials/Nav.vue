@@ -1,7 +1,7 @@
 <template>
   <div
-    class="absolute pin-t z-30 w-full mb-16"
-    :class="{ 'bg-blue-darkest relative': page !== 'index' }"
+    class="w-full"
+    :class="{ 'bg-teal relative shadow-md': page !== 'index' }"
   >
     <div class="container mx-auto py-8">
       <div class="flex flex-row content-center mx-6 sm:mx-0 text-white">
@@ -57,7 +57,6 @@
                 v-if="absolute"
                 :href="absolute"
                 class="nav-link slide-link"
-                target="_blank"
               >
                 {{ text }}
               </a>
@@ -65,6 +64,7 @@
               <nuxt-link
                 v-else
                 :to="{ path }"
+                :class="{ 'exact-active': subIsActive(path) }"
                 class="nav-link slide-link"
                 exact
               >
@@ -101,6 +101,16 @@ export default {
     return {
       links,
       social
+    }
+  },
+
+  methods: {
+    subIsActive (input) {
+      const paths = Array.isArray(input) ? input : [input]
+
+      return paths.some(path => {
+        return this.$nuxt.$route.path.indexOf(path) === 0 && input !== '/'
+      })
     }
   }
 }

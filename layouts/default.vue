@@ -1,8 +1,13 @@
 <template>
   <div class="flex flex-col h-screen">
-    <VNav />
+    <div class="fixed w-full z-30">
+      <VNav />
+    </div>
 
-    <div class="flex-grow">
+    <div
+      :class="{ 'mt-40': page !== 'index' }"
+      class="flex-grow"
+    >
       <transition name="fadeDown">
         <nuxt />
       </transition>

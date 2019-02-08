@@ -117,41 +117,41 @@
       </div>
     </div>
 
-    <div class="bg-blue-darkest py-16 text-grey-lightest">
+    <div class="bg-teal py-16 text-grey-lightest">
       <div class="flex flex-wrap container mx-auto max-w-xl">
         <Icon
           name="php"
-          class="w-1/3 mb-12 icon-lg md:flex-1"
+          class="w-1/3 mb-12 icon-lg md:flex-1 md:mb-0"
         />
 
         <Icon
           name="laravel"
-          class="w-1/3 mb-12 icon-lg md:flex-1"
+          class="w-1/3 mb-12 icon-lg md:flex-1 md:mb-0"
         />
 
         <Icon
           name="js"
-          class="w-1/3 mb-12 icon-lg md:flex-1"
+          class="w-1/3 mb-12 icon-lg md:flex-1 md:mb-0"
         />
 
         <Icon
           name="vuejs"
-          class="w-1/3 mb-12 icon-lg md:flex-1"
+          class="w-1/3 mb-12 icon-lg md:flex-1 md:mb-0"
         />
 
         <Icon
           name="git"
-          class="w-1/3 mb-12 icon-lg md:flex-1"
+          class="w-1/3 mb-12 icon-lg md:flex-1 md:mb-0"
         />
 
         <Icon
           name="sass"
-          class="w-1/3 mb-12 icon-lg md:flex-1"
+          class="w-1/3 mb-12 icon-lg md:flex-1 md:mb-0"
         />
 
         <Icon
           name="sketch"
-          class="w-full icon-lg md:flex-1"
+          class="w-full icon-lg md:flex-1 md:mb-0"
         />
       </div>
     </div>
