@@ -16,7 +16,7 @@
 
         <div class="bg-teal flex w-full text-teal-lightest px-6 py-12 items-center text-xl md:w-1/2 md:bg-transparent md:text-grey-darker">
           <p>
-            Hi, I am Corey, a full-stack web developer living in Santa Rosa, CA with 8+ years of professional experience. My passion for this constantly evolving field resonates deeply with me. I continue to be inspired to excel as a developer and I am eager to be part of a team with similar goals.
+            Hi, I am Corey, a Full Stack Software Engineer living in Santa Rosa, CA with 8+ years of professional experience. My passion for this constantly evolving field resonates deeply with me. I continue to be inspired to excel as a developer and I am eager to be part of a team with similar goals.
           </p>
         </div>
       </div>
@@ -39,7 +39,7 @@
         </p>
 
         <p>
-          Since 2011, I have been working as a full-stack web developer, creating a successful internal CRM and ERM (Customer Relationship Management and Employee Relationship Management), called LEAP, that runs the day-to-day operations for the company. The application that I have built includes an extensive amount of features, including: scheduling, generating contracts, hiring process, client/employee communication, business reports, transactional emails, etc. I am presently close to rolling out LEAP 2.0 with a front end built in Vue and back end built in Laravel.
+          Since 2010, I have been working as a software engineer, creating a successful internal CRM and ERM (Customer Relationship Management and Employee Relationship Management), called LEAP, that runs the day-to-day operations for the company. The application that I have built includes an extensive amount of features, including: scheduling, generating contracts, hiring process, client/employee communication, business reports, transactional emails, etc. I am presently close to rolling out LEAP 2.0 with a front end built in Vue and back-end/API built in Laravel.
         </p>
 
         <h2>Experience</h2>
@@ -49,7 +49,7 @@
         </p>
 
         <p>
-          Since 2011 I have been developing with PHP, Javascript (ES6) (and jQuery), MySQL, and use GIT for version control. I have a good understanding of the Unix system/web servers as I've dealt with all of the DevOps processes for C.P.A. Valet. I feel at home on the command line as I use it every day.
+          Since 2010, I have been developing with PHP using a custom framework I architected, Javascript/ES6 (jQuery and now Vue), MySQL, and use GIT for version control. I have a good understanding of the Unix system/web servers as I've dealt with all of the DevOps processes for C.P.A. Valet. I feel at home on the command line as I use it every day.
         </p>
 
         <p>
@@ -76,12 +76,6 @@
           </li>
 
           <li>
-            <a href="https://vuejs.org/">
-              Vue.js: The Progressive Javascript Framework
-            </a>
-          </li>
-
-          <li>
             <a href="https://www.docker.com/">
               Docker: Containers for DevOps
             </a>
@@ -93,7 +87,7 @@
         <h3>Springly</h3>
 
         <p>
-          Springly is a SAAS web app for mobile service companies in the hospitality industry. It is currently in private development.
+          Springly is a multi-tenant SAAS web application for mobile service companies in the hospitality industry. It is currently in private development.
         </p>
 
         <h3>Liv Themes</h3>
