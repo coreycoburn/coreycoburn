@@ -114,11 +114,11 @@
         <h3>Currently Learning</h3>
 
         <p>
-          I love the field that I work in and feel privileged that I can do what I love on a daily basis. I love staying on top of the ever-changing web and enjoy building side-projects to practice/hone my skills.
+          I am currently focusing on improving my development process by writing more tests for my code (unit and integration) by using TDD (Test-driven development) process for both Laravel and Vue. I also have been dabbling in learning React and GraphQL.
         </p>
 
         <p>
-          I am currently focusing on improving my development process by writing more tests for my code (unit and integration) by using TDD (Test-driven development) process for both Laravel and Vue. I also have been dabbling in learning React and GraphQL.
+          I love the field that I work in and feel privileged that I can do what I love on a daily basis. I love staying on top of the ever-changing web and enjoy building side-projects to practice/hone my skills.
         </p>
       </div>
     </div>
