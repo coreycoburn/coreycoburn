@@ -16,7 +16,7 @@
 
         <div class="bg-teal flex w-full text-teal-lightest px-6 py-12 items-center text-xl md:w-1/2 md:bg-transparent md:text-grey-darker">
           <p>
-            Hi, I'm Corey, a full-stack web developer living in Santa Rosa, CA with 8+ years professional experience. My passion for this constantly evolving field resonates deeply with me. I am consistently pushing myself to grow and become a better developer and being a part of a team with similar goals.
+            Hi, I am Corey, a full-stack web developer living in Santa Rosa, CA with 8+ years of professional experience. My passion for this constantly evolving field resonates deeply with me. I continue to be inspired to excel as a developer and I am eager to be part of a team with similar goals.
           </p>
         </div>
       </div>
@@ -27,11 +27,11 @@
         <h2>My Story</h2>
 
         <p>
-          I've always been into building things for the web ever since I got my hands on a computer. I started building websites when I was in high school in the early 2000's, dabbling with free website hosts like Geocities and Angelfire. I continued my creative passion for the web while in college making personal websites and family/friends business websites for fun.
+          Since I was a child I have been interested in building things for the web; that interest grew in high school when I was introduced to free website hosts like Geocities and Angelfire. I continued my creative passion for programming and design while in college both in and out of the classroom.
         </p>
 
         <p>
-          I graduated from Sonoma State University in 2005 and became an Executive Team Leader for Target. I gained a lot of experience in customer service and leading a team during the three years I was there. I decided that the retail life wasn't for me.
+          I graduated from Sonoma State University in 2005 and became an Executive Team Leader for Target; my role focused heavily on providing excellent customer service and successfully leading a team. While I valued my role at Target, I was not fulfilled and after three years, I decided that I would be happier in a more creative setting.
         </p>
 
         <p>
@@ -39,17 +39,17 @@
         </p>
 
         <p>
-          Since 2011, I have been working as a full-stack web developer, creating an internal CRM and ERM (Customer Relationship Management and Employee Relationship Management) that runs the day-to-day operations for the company.
+          Since 2011, I have been working as a full-stack web developer, creating a successful internal CRM and ERM (Customer Relationship Management and Employee Relationship Management), called LEAP, that runs the day-to-day operations for the company. The application that I have built includes an extensive amount of features, including: scheduling, generating contracts, hiring process, client/employee communication, business reports, transactional emails, etc. I am presently close to rolling out LEAP 2.0 with a front end built in Vue and back end built in Laravel.
         </p>
 
         <h2>Experience</h2>
 
         <p>
-          I have grown with the web. My first websites were built when CSS wasn't a thing and layouts were used with tables. I have developed websites using Flash and ActionScript 3 before html5 was introduced.
+          I have grown with the web. My first websites were built before CSS existed and layouts were used with tables. I developed websites using Flash and ActionScript 3 before html5 was introduced.
         </p>
 
         <p>
-          Since 2011 I have been developing with PHP, Javascript (and jQuery), and MySQL. I have a good understanding of the Unix system / web servers as I've dealt with all of the DevOps processes for the company.
+          Since 2011 I have been developing with PHP, Javascript (ES6) (and jQuery), MySQL, and use GIT for version control. I have a good understanding of the Unix system/web servers as I've dealt with all of the DevOps processes for C.P.A. Valet. I feel at home on the command line as I use it every day.
         </p>
 
         <p>
@@ -100,19 +100,25 @@
         <p>
           Currently working on releasing an Admin Template product on <a href="https://themeforest.net/category/site-templates/admin-templates">
             Theme Forest
-          </a> built with Vue and Tailwind Css.
+          </a>, which is built with Vue and Tailwind CSS.
+        </p>
+
+        <h3>Open Source</h3>
+
+        <p>
+          I started contributing to open source projects last year when my first pull-request was merged into a popular Vue package (<a href="https://github.com/jofftiquez/v-animate-css/pull/2/">
+            Added modifiers to listen to scroll events
+          </a>). I plan to spend more time focusing on open source work in 2019.
         </p>
 
         <h3>Currently Learning</h3>
 
         <p>
-          I'm continuously trying to become a better developer and staying on top of the latest technologies. I'm focusing on improving my development by writing more tests for my code (unit and integration) for both Laravel and Vue. I'm also have been dabbling in learning React and GraphQL.
+          I love the field that I work in and feel privileged that I can do what I love on a daily basis. I love staying on top of the ever-changing web and enjoy building side-projects to practice/hone my skills.
         </p>
 
         <p>
-          I started working in open source last year when my first pull-request was merged into a popular Vue package (<a href="https://github.com/jofftiquez/v-animate-css/pull/2/">
-            Added modifiers to listen to scroll events
-          </a>). I plan to spend more time focusing on open source work in 2019.
+          I am currently focusing on improving my development process by writing more tests for my code (unit and integration) by using TDD (Test-driven development) process for both Laravel and Vue. I also have been dabbling in learning React and GraphQL.
         </p>
       </div>
     </div>
