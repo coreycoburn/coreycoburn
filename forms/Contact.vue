@@ -24,12 +24,14 @@
           class="w-full p-4 appearance-none border"
         >
 
-        <div
-          v-show="errors.has('name')"
-          class="text-red mt-3"
-        >
-          {{ errors.first('name') }}
-        </div>
+        <transition name="fade">
+          <div
+            v-if="errors.has('name')"
+            class="text-red mt-3"
+          >
+            {{ errors.first('name') }}
+          </div>
+        </transition>
       </div>
       <div class="flex-1 text-center mx-0 sm:ml-4 sm:mr-16 sm:w-1/2">
         <input
@@ -41,12 +43,14 @@
           class="w-full p-4 appearance-none border"
         >
 
-        <div
-          v-show="errors.has('email')"
-          class="text-red mt-3"
-        >
-          {{ errors.first('email') }}
-        </div>
+        <transition name="fade">
+          <div
+            v-if="errors.has('email')"
+            class="text-red mt-3"
+          >
+            {{ errors.first('email') }}
+          </div>
+        </transition>
       </div>
     </div>
     <div class="flex-1 text-center mx-0 mb-8 sm:mx-16">
@@ -58,12 +62,14 @@
         placeholder="Your message..."
       />
 
-      <div
-        v-show="errors.has('message')"
-        class="text-red mt-3"
-      >
-        {{ errors.first('message') }}
-      </div>
+      <transition name="fade">
+        <div
+          v-if="errors.has('message')"
+          class="text-red mt-3"
+        >
+          {{ errors.first('message') }}
+        </div>
+      </transition>
     </div>
     <div class="text-center">
       <input
