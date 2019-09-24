@@ -1,12 +1,12 @@
 export const me = {
   name: 'Corey Coburn',
   email: 'corey@coburn.codes',
-  title: 'Full Stack Software Engineer'
+  title: 'Full Stack Web Developer'
 }
 
 export const skills = [
   '8+ years professional developer experience',
-  'Full Stack Software Engineer',
+  'Full Stack Web Developer',
   'Experience crafting small websites to large web applications'
 ]
 
