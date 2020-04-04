@@ -16,7 +16,7 @@
 
         <div class="bg-teal flex w-full text-teal-lightest px-6 py-12 items-center text-xl md:w-1/2 md:bg-transparent md:text-grey-darker">
           <p>
-            Hi, I am Corey, a Full Stack Web Developer living in Santa Rosa, CA with 8+ years of professional experience. My passion for this constantly evolving field resonates deeply with me. I continue to be inspired to excel as a developer and I am eager to be part of a team with similar goals.
+            Hi, I am Corey, a Full Stack Software Engineer living in Santa Rosa, CA with 8+ years of professional experience. My passion for this constantly evolving field resonates deeply with me. I continue to be inspired to excel as an engineer and I am eager to be part of a team with similar goals.
           </p>
         </div>
       </div>
@@ -39,7 +39,7 @@
         </p>
 
         <p>
-          Since 2010, I have been working as a web developer, creating a successful internal CRM and ERM (Customer Relationship Management and Employee Relationship Management), called LEAP, that runs the day-to-day operations for the company. The application that I have built includes an extensive amount of features, including: scheduling, generating contracts, hiring process, client/employee communication, business reports, transactional emails, etc. I am presently close to rolling out LEAP 2.0 with a front end built in Vue and back-end/API built in Laravel.
+          Since 2011, I have been working as a software engineer, creating a successful internal CRM and ERM (Customer Relationship Management and Employee Relationship Management), called LEAP, that runs the day-to-day operations for the company. The application that I have built includes an extensive amount of features, including: scheduling, generating contracts, hiring process, client/employee communication, business reports, transactional emails, etc. I am presently close to rolling out LEAP 2.0 with a front end built in Vue and back-end/API built in Laravel.
         </p>
 
         <h2>Experience</h2>

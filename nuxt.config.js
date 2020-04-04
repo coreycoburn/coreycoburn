@@ -47,7 +47,7 @@ module.exports = {
       },
       {
         property: 'og:title',
-        content: 'Corey Coburn | Full-Stack Web Developer'
+        content: 'Corey Coburn | Full-Stack Software Engineer'
       },
       {
         property: 'og:title',
