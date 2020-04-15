@@ -16,7 +16,7 @@
 
         <div class="bg-teal flex w-full text-teal-lightest px-6 py-12 items-center text-xl md:w-1/2 md:bg-transparent md:text-grey-darker">
           <p>
-            Hi, I am Corey, a Full Stack Software Engineer living in Santa Rosa, CA with 8+ years of professional experience. My passion for this constantly evolving field resonates deeply with me. I continue to be inspired to excel as an engineer and I am eager to be part of a team with similar goals.
+            Hi, I am Corey, a Full Stack Software Engineer living in Santa Rosa, CA with {{ me.experience }}+ years of professional experience. My passion for this constantly evolving field resonates deeply with me. I continue to be inspired to excel as an engineer and I am eager to be part of a team with similar goals.
           </p>
         </div>
       </div>
@@ -102,7 +102,7 @@
         <p>
           I started contributing to open source projects last year when my first pull-request was merged into a popular Vue package (<a href="https://github.com/jofftiquez/v-animate-css/pull/2/">
             Added modifiers to listen to scroll events
-          </a>). I plan to spend more time focusing on open source work in 2019.
+          </a>). I plan to spend more time focusing on open source work in 2019-2020.
         </p>
 
         <h3>Currently Learning</h3>

@@ -18,6 +18,33 @@
       <div class="grid mb-16">
         <Portfolio
           size="large"
+          image="vendorplannerlogin.png"
+          path="vendor-planner"
+        >
+          Vendor Planner SaaS Web Application
+        </Portfolio>
+        <Portfolio
+          size="large"
+          image="vue-resume-generator-md.png"
+          path="vue-resume-generator"
+        >
+          Vue Resume Generator
+        </Portfolio>
+
+        <Portfolio
+          size="large"
+          image="help-matt-appleby-md.png"
+          path="help-matt-appleby"
+        >
+          Donation fundraiser site
+        </Portfolio>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid mb-16">
+        <Portfolio
+          size="large"
           image="cpa-valet-grid.jpg"
           path="cpa-valet"
         >

@@ -6,7 +6,7 @@
     :style="{ 'background-image': `url(/img/portfolio/${image})` }"
     exact
   >
-    <div class="item__details text-sm md:text-base">
+    <div class="item__details rounded-b-lg text-sm md:text-base">
       <slot />
 
       <div class="text-xs pt-3 md:hidden">
@@ -50,13 +50,13 @@ export default {
 // https://codepen.io/ramenhog/pen/MpORPa
 // Author of gallery: https://codepen.io/ramenhog
 .item {
-  @apply relative flex flex-col justify-end bg-teal text-white bg-cover bg-left-top cursor-pointer shadow-lg pb-0;
+  @apply relative flex flex-col justify-end bg-teal text-white rounded-t-lg rounded-b-lg bg-cover bg-left-top cursor-pointer shadow-lg pb-0;
   grid-column-start: auto;
   grid-row-start: auto;
   transition: transform 0.3s ease-in-out;
 
   &:after {
-    @apply absolute w-full h-full bg-black opacity-0;
+    @apply absolute w-full h-full bg-black rounded-t-lg rounded-b-lg opacity-0;
     content: '';
     transition: opacity 0.3s ease-in-out;
   }
@@ -65,7 +65,7 @@ export default {
     transform: scale(1.05);
 
     &:after {
-      @apply flex opacity-85 justify-center items-center text-3xl;
+      @apply flex opacity-85 justify-center rounded-b-lg items-center text-3xl;
       content: 'click to view...'
     }
   }

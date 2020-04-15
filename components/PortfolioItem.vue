@@ -2,21 +2,31 @@
   <div>
     <div class="container mx-auto max-w-lg px-6 md:px-0">
       <div class="mb-8">
-        <nuxt-link
-          :to="{ name: 'portfolio' }"
-          exact
-        >
-          <div class="flex items-center">
-            <Icon
-              name="arrow-alt-circle-left"
-              class="mr-3"
-            />
+        <div class="flex">
+          <div class="flex-1">
+            <nuxt-link
+              :to="{ name: 'portfolio' }"
+              exact
+              class="inline-flex items-center"
+            >
+              <Icon
+                name="arrow-alt-circle-left"
+                class="mr-3"
+              />
 
-            <div>
-              back to portfolio list
-            </div>
+              <div>
+                back to portfolio list
+              </div>
+            </nuxt-link>
           </div>
-        </nuxt-link>
+          <div v-if="github">
+            <a
+              :href="github"
+            >
+              <Icon name="github" />
+            </a>
+          </div>
+        </div>
       </div>
 
       <h1 class="text-center">
@@ -29,10 +39,10 @@
         {{ description }}
       </p>
 
-      <ul class="list-reset">
-        <li>
+      <ul class="list-reset mb-8">
+        <li v-if="client">
           <span class="font-bold">
-            company:
+            company / client:
           </span>
           {{ client }}
         </li>
@@ -47,6 +57,21 @@
           />
         </li>
       </ul>
+
+      <div v-if="stack.length > 0">
+        <h3>Tech Stack</h3>
+        <ul class="list-reset">
+          <li
+            v-for="({ name, url: stackUrl }, index) in stack"
+            :key="index"
+          >
+            <a
+              :href="stackUrl"
+              v-text="name"
+            />
+          </li>
+        </ul>
+      </div>
     </div>
 
     <div class="container mx-auto">
@@ -70,6 +95,7 @@
 <script>
 // Icons
 import '@/components/icons/arrow-alt-circle-left'
+import '@/components/icons/github'
 
 export default {
   props: {
@@ -79,11 +105,19 @@ export default {
     },
     client: {
       type: String,
-      required: true
+      default: null
     },
     url: {
       type: String,
       default: null
+    },
+    github: {
+      type: String,
+      default: ''
+    },
+    stack: {
+      type: Array,
+      default: () => []
     },
     description: {
       type: String,

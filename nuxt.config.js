@@ -109,6 +109,9 @@ module.exports = {
      ** Run ESLint on save
      */
     extractCSS: true,
+    postcss: {
+
+    },
     postcss: [
       require('tailwindcss')('./tailwind.config.js'),
       require('autoprefixer')
